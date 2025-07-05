@@ -230,8 +230,10 @@
 
   .charts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Cambiado de column a row */
     gap: 50px;
+    justify-content: center; /* Opcional: centra los gráficos horizontalmente */
+    flex-wrap: wrap; /* Opcional: permite que se acomoden en pantallas pequeñas */
   }
 
   .chart-card {
