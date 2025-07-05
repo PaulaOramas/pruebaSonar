@@ -112,14 +112,14 @@
     <p>Accede a la Gestión de Productos, Usuarios y Facturas</p>
   </div>
 
-  <div class="panel">
-    <!-- Navegación -->
-    <div class="nav">
-      <a href="/app/productos">🥂 Productos</a>
-      <a href="/app/usuarios">🧑‍🤝‍🧑 Usuarios</a>
-      <a href="/app/facturas">📋 Facturas</a>
-    </div>
+  <!-- Navegación (movida aquí, fuera del panel) -->
+  <div class="nav">
+    <a href="/app/productos">🥂 Productos</a>
+    <a href="/app/usuarios">🧑‍🤝‍🧑 Usuarios</a>
+    <a href="/app/facturas">📋 Facturas</a>
+  </div>
 
+  <div class="panel">
     <!-- Estadísticas -->
     <div class="stats-section">
       <h2>📈 Estadísticas de Gestión</h2>
