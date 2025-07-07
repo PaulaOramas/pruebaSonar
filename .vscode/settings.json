@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "poramas",
+        "projectKey": "poramas_Prueba-Sonar"
+    }
+}
